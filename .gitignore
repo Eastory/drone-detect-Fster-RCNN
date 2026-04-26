@@ -1,0 +1,29 @@
+# --- Python 虚拟环境 ---
+.venv/
+venv/
+ENV/
+
+# --- 训练结果与缓存 ---
+# YOLOv8 默认会将训练过程和结果保存在 runs 文件夹
+runs/
+# 忽略 PyTorch 自动下载的模型权重文件
+*.pt
+*.onnx
+
+# --- 临时文件与缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- 数据集相关 (建议) ---
+# 如果你的 data 文件夹里存放的是大量原始图片，建议忽略
+# data/datasets/
+# *.zip
+# *.tar
+# *.gz
+
+# --- 编译器/IDE 配置 ---
+.idea/
+.vscode/
+.DS_Store
