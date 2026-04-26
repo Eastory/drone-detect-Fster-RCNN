@@ -1,4 +1,4 @@
-DroneDetection_FasterRCNN/
+```DroneDetection_FasterRCNN/
 ├── test               # 放用来测试的代码
     ├── testData.py    # 测试数据集能不能正常用
     └── testGPU.py     # 测试 GPU 能不能用
@@ -13,7 +13,7 @@ DroneDetection_FasterRCNN/
 ├── utils.py           # 工具函数（bbox转换、collate_fn等）
 ├── main.py            # 主执行入口（一键启动训练/推理）
 └── runs/              # 自动保存训练权重，每一轮的训练都会保存对应的训练权重，测试或推断时需要使用对应的权重
-
+```
 训练（train）：
 每一轮训练后会测试，计算准确率，召回率，F1这三个，实验结果主要就看这三个
 
